@@ -1,14 +1,26 @@
-h1 {
-    color: blue;
-    }
-.navbar{
-    display: inline;
-    border: 2px solid orange;
-    display: flex;
-    flex-wrap: nowrap;
- }
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    }
+  background-image: url("baggrund.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2 {
+  color: blue;
+}
+h1 {
+  color: green;
+  font-size: 80px;
+}
+.navbar {
+  display: inline;
+  border: 2px solid orange;
+  display: flex;
+  flex-wrap: nowrap;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
