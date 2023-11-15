@@ -1,15 +1,16 @@
 body {
-  background-image: url("baggrund.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: url(Images/baggrund.png);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 h2 {
   color: blue;
 }
 h1 {
-  color: green;
+  color: blue;
   font-size: 80px;
 }
 .navbar {
@@ -17,10 +18,4 @@ h1 {
   border: 2px solid orange;
   display: flex;
   flex-wrap: nowrap;
-}
-body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
 }
