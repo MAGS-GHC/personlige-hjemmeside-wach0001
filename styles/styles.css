@@ -1,21 +1,68 @@
+html {
+  height: 100%;
+}
+
+.yderstelag {
+  width: 1024px;
+}
+
 body {
-  background-image: url(Images/baggrund.png);
+  background-image: url(/Images/baggrund.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 100vh;
 }
+header {
+  background-color: rgba(0, 0, 0, 0.166);
+  width: 1024px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.597);
+  text-align: center;
+  width: 1024px;
+  height: 100px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 0);
+}
 
 h2 {
-  color: blue;
+  font-size: 40px;
+  text-align: center;
+  padding: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: rgb(255, 255, 0);
 }
 h1 {
-  color: blue;
-  font-size: 80px;
-}
-.navbar {
-  display: inline;
-  border: 2px solid orange;
-  display: flex;
+  text-align: center;
   flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 0);
+  font-size: 80px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+p {
+  font-size: 30px;
+  color: yellow;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  border: outset;
+  border-width: 5px;
+  border-color: yellow;
+  border-radius: 30px;
 }
