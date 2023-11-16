@@ -57,12 +57,17 @@ h1 {
 }
 
 p {
+  font-family: "Azeret Mono", monospace;
+  text-align: center;
   font-size: 30px;
-  color: yellow;
+  color: rgb(0, 0, 0);
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: rgb(255, 255, 0);
   border: outset;
-  border-width: 5px;
+  border-width: 15px;
   border-color: yellow;
   border-radius: 30px;
+}
+#box1 {
+  background-color: rgb(255, 228, 196);
 }
