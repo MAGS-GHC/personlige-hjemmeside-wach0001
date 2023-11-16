@@ -102,3 +102,13 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+.fxdplayer {
+  position: fixed;
+}
+.center2 {
+  width: 201px;
+  height: 300px;
+}
+.center3 {
+  justify-content: center;
+}
