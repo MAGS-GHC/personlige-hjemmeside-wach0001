@@ -61,8 +61,8 @@ p {
   text-align: center;
   font-size: 30px;
   color: rgb(0, 0, 0);
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: rgb(255, 255, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(30, 20, 231);
   border: outset;
   border-width: 15px;
   border-color: yellow;
@@ -90,8 +90,8 @@ p {
   text-align: center;
   font-size: 30px;
   color: rgb(0, 0, 0);
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: rgb(255, 255, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(30, 20, 231);
   border: outset;
   border-width: 15px;
   border-color: yellow;
